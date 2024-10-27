@@ -11,9 +11,11 @@ const GymOptions = () => {
       <h2 className="text-2xl font-bold text-center">
         Best Prices in the town : {options.length}
       </h2>
-      {options.map((option) => (
-        <GymOption key={option.id} option={option}></GymOption>
-      ))}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-10 gap-10">
+        {options.map((option) => (
+          <GymOption key={option.id} option={option}></GymOption>
+        ))}
+      </div>
     </div>
   );
 };
