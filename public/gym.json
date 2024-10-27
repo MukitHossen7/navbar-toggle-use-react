@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Membership",
+    "price": 29.99,
+    "features": [
+      "Access to gym equipment",
+      "Use of locker facilities",
+      "Group fitness classes",
+      "Personal training (additional cost)",
+      "Monthly fitness assessments",
+      "Free gym orientation session",
+      "Access to online workout programs"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Membership",
+    "price": 49.99,
+    "features": [
+      "All Basic Membership features",
+      "Access to swimming pool",
+      "Unlimited group fitness classes",
+      "Nutrition consultation",
+      "Discount on merchandise",
+      "Access to member-only workshops",
+      "Priority booking for group classes"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Membership",
+    "price": 69.99,
+    "features": [
+      "All Standard Membership features",
+      "Free personal training sessions (2 per month)",
+      "Access to sauna and steam room",
+      "Priority booking for classes",
+      "Monthly wellness seminars",
+      "Access to exclusive members’ events",
+      "Free guest passes (2 per month)"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Family Membership",
+    "price": 99.99,
+    "features": [
+      "All Premium Membership features",
+      "Access for up to 4 family members",
+      "Family fitness classes",
+      "Monthly family activities",
+      "Family wellness workshops",
+      "Discount on family-friendly classes",
+      "Special rates for children’s memberships"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Student Membership",
+    "price": 19.99,
+    "features": [
+      "Access to gym equipment",
+      "Discounted group fitness classes",
+      "Study area with free Wi-Fi",
+      "Free nutrition workshops",
+      "Access to online fitness challenges",
+      "Monthly fitness tracking",
+      "Collaboration with campus events"
+    ]
+  }
+]

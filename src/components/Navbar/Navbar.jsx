@@ -15,7 +15,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className=" md:flex gap-10">
+    <div>
       <button onClick={handleClick}>
         {open ? (
           <IoMdClose className="md:hidden text-xl" />
@@ -23,9 +23,15 @@ const Navbar = () => {
           <CiMenuFries className="md:hidden" />
         )}
       </button>
-      {routes.map((route) => (
-        <Link key={route.id} route={route}></Link>
-      ))}
+      <ul
+        className={`z-10 md:flex gap-10 absolute md:static transform duration-1000  bg-slate-200 py-4 px-5 rounded-xl ${
+          open ? "top-16" : "-top-40"
+        }`}
+      >
+        {routes.map((route) => (
+          <Link key={route.id} route={route}></Link>
+        ))}
+      </ul>
     </div>
   );
 };
