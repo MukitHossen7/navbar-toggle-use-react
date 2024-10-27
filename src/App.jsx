@@ -1,7 +1,11 @@
+import DaisyNav from "./components/DaisyNav/DaisyNav";
+import Navbar from "./components/Navbar/Navbar";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-4xl">Hello React</h1>
+    <div className="w-11/12 mx-auto pt-10">
+      <Navbar></Navbar>
+      <DaisyNav></DaisyNav>
     </div>
   );
 };
