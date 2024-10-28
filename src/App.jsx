@@ -1,3 +1,5 @@
+import BrushBarChart from "./components/BrushBarChart/BrushBarChart";
+import Chart from "./components/Chart/Chart";
 import Navbar from "./components/Navbar/Navbar";
 import GymOptions from "./GymOptions/GymOptions";
 
@@ -6,6 +8,8 @@ const App = () => {
     <div className="w-11/12 mx-auto pt-10">
       <Navbar></Navbar>
       <GymOptions></GymOptions>
+      <Chart></Chart>
+      <BrushBarChart></BrushBarChart>
     </div>
   );
 };
