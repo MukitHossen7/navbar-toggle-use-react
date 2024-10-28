@@ -1,6 +1,7 @@
 import BrushBarChart from "./components/BrushBarChart/BrushBarChart";
 import Chart from "./components/Chart/Chart";
 import Navbar from "./components/Navbar/Navbar";
+import Phones from "./components/Phones/Phones";
 import GymOptions from "./GymOptions/GymOptions";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <GymOptions></GymOptions>
       <Chart></Chart>
       <BrushBarChart></BrushBarChart>
+      <Phones></Phones>
     </div>
   );
 };
